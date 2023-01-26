@@ -1,0 +1,53 @@
+body{
+  background-color:tomato;
+}
+ul{
+  list-style: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: khaki;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+color: #b3d4fc;
+  padding: 16px 18px;
+  text-decoration: none;
+  text-align: center;
+}
+li a:hover{
+
+}
+.l1:hover{
+  background-color: bisque;
+}
+.l2:hover{
+  background-color:green;
+}
+.l3:hover{
+  background-color: #d78181;
+}
+.l4:hover{
+  background-color: purple;
+}
+.l5:hover{
+  background-color: aquamarine;
+}
+.sub-menu1{
+  display: none;
+}
+.Menu bar ul li:hover. sub-menu1{
+  display: block;
+  position: absolute;
+  background: rgb(0,100,0);
+  margin-top: 15px;
+  margin-left:-15px ;
+}
+.Menu bar ul li:hover. sub-menu1 ul{
+  display: block;
+  margin: 10px;
+
+}
