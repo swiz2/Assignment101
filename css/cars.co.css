@@ -213,14 +213,15 @@ body {
 }
 
 .background div:nth-child(3) {
-    background: linear-gradient(132deg, #1FCFC3 0.00%, #1F91CF 100.00%);
-    width: 30%;
-    padding-top: 30%;
-    left: 80%;
-    top: 80%;
-    transform: translateX(-50%) translateY(-50%);
+  background: linear-gradient(132deg, #1FCFC3 0.00%, #1F91CF 100.00%);
+  width: 30%;
+  padding-top: 30%;
+  left: 80%;
+  top: 80%;
+  transform: translateX(-50%) translateY(-50%);
 }
-<style>
+/*slide animation*/
+
 #hcg-slider-1 .hcg-slide-container {
 	width: auto;
 	height: auto;
@@ -290,22 +291,23 @@ body {
 /************CSS Animation***********/
 
 .animated {
-	animation-name: fadeInLeftBig;
-	animation-duration: 1s;
+	animation-name: fadeInLeft;
+	animation-duration: 2s;
 }
-@keyframes fadeInLeftBig {
+@keyframes fadeInLeft {
 	0% {
 		opacity: 0;
-		transform: translateX(-200px);
+		transform: translateX(-20px);
 	}
 	100% {
 		opacity: 1;
 		transform: translateX(0);
 	}
 }
-.fadeInLeftBig {
-	animation-name: fadeInLeftBig;
+.fadeInLeft {
+	animation-name: fadeInLeft;
 }
+
 
 
 
