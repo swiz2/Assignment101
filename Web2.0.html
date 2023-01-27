@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cars.co</title>
+<link rel="icon" href="https://www.carlogos.org/car-logos/koenigsegg-logo.png">
+</head>
+<link rel="stylesheet" href="css/cars.co.css"
+<style>
+#hcg-slider-1 :hcg-slide-container {
+	width: auto;
+	height: auto;
+}
+.hcg-slider {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.hcg-slide-container {
+	max-width: 100%;
+	display: inline-block;
+	position: relative;
+}
+.hcg-slides {
+	display: none;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	border: solid 1px #a0a0a0;
+}
+.hcg-slides img {
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+}
+.hcg-slide-text {
+	color: #ffffff;
+	font-size: 14px;
+	padding: 3px 5px;
+	position: absolute;
+	bottom: 0;
+	border-radius: 5px;
+	left: 50%;
+	text-align: center;
+	text-shadow: 0 0 2px #000;
+	background-color: rgba(255,255,255,0.30);
+	display: inline-block;
+	transform: translate(-50%, -5px);
+}
+.hcg-slide-dot-control {
+	margin-top: 10px;
+	text-align: center;
+}
+.hcg-slide-dot {
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+}
+.hcg-slide-dot.dot-active {
+	background-color: #717171;
+}
+.hcg-slide-number {
+	color: #ffffff;
+	font-size: 12px;
+	padding: 4px 7px;
+	position: absolute;
+	border-radius: 5px;
+	top: 5px;
+	left: 5px;
+	background-color: rgba(255,255,255,0.30);
+}
+/************CSS Animation***********/
+
+.animated{
+	animation-name: fadeInLeftBig;
+	animation-duration: 1s;
+}
+@keyframes fadeInLeftBig {
+	0% {
+		opacity: 0;
+		transform: translateX(-200px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+.fadeInLeftBig {
+	animation-name: fadeInLeftBig;
+}
+</style>
+<body>
+
+<nav class="menu-container">
+  <!-- burger menu -->
+  <input type="checkbox" aria-label="Toggle menu" />
+  <span></span>
+  <span></span>
+  <span></span>
+
+  <!-- logo -->
+  <a href="https://www.carlogos.org/car-logos/koenigsegg-logo.png" class="menu-logo">
+    <img src="https://www.carlogos.org/car-logos/koenigsegg-logo.png" alt="Cars.co"/>
+  </a>
+
+  <!-- menu items -->
+  <div class="menu">
+    <ul>
+      <li>
+        <a href="#Home">
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="#pricing">
+          Pricing
+        </a>
+      </li>
+      <li>
+        <a href="#blog">
+          Blog
+        </a>
+      </li>
+      <li>
+        <a href="#docs">
+          Docs
+        </a>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <a href="# sign">
+          Sign-up
+        </a>
+      </li>
+      <li>
+        <a href="#login">
+          Login
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="background">
+   <div></div>
+   <div></div>
+   <div></div>
+</div>
+<div id="hcg-slider-1" class="hcg-slider">
+	<div class="hcg-slide-container">
+	<div class="hcg-slider-body">
+		<a class="hcg-slides animated" style="display:flex">
+			<span class="hcg-slide-number">1/5</span>
+			<img src="https://www.html-code-generator.com/images/slider/1.png" alt="1">
+			<span class="hcg-slide-text">1</span>
+		</a>
+	</div>
+</div>
+<div class="hcg-slide-dot-control"></div>
+</div>
+
+</body>
+</html>
